@@ -1,7 +1,7 @@
 //🚀🚀🚀  Topic #1 Closures 🚀🚀🚀//
 /* 🚀🚀🚀🤓 Task 1: 🤓🚀🚀🚀 
 Study the code below and explain in your own words why nested function can access the variable internal. */
-
+// nested function is a closure so it can inherit variables from the outer function
 const external = "I'm outside the function";
 
 function myFunction() {
